@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 고생물학 소프트웨어
+title: Jikhan Jung
 lang: ko
 ---
 
@@ -16,6 +16,12 @@ lang: ko
   .profile-section h2 {
     color: #2c3e50;
     margin-bottom: 1em;
+  }
+
+  .profile-section p {
+    color: #333;
+    font-size: 1.1em;
+    line-height: 1.6;
   }
 
   .projects-section {
@@ -96,43 +102,38 @@ lang: ko
 </style>
 
 <div class="profile-section">
-  <h2>🦴 About</h2>
-  <p>고생물학 연구자이자 소프트웨어 개발자입니다. 형태학적 데이터 분석과 계통수 시각화를 위한 도구들을 개발하고 있습니다.</p>
-  <p>Paleontologist and software developer creating tools for morphological data analysis and phylogenetic visualization.</p>
+  <h2>About me</h2>
+  <p>Paleontologist and software developer creating tools for paleontology, geometric morphometrics, phylogenetics, visualization, and more.</p>
 </div>
 
 <div class="projects-section">
   <h2 style="text-align: center; color: #2c3e50; margin-bottom: 1em;">Projects</h2>
-  <p style="text-align: center; color: #555; margin-bottom: 2em;">고생물학 연구를 지원하기 위해 개발된 소프트웨어 도구들입니다.</p>
 
   <div class="software-grid">
     <div class="software-card">
       <h3>Modan2</h3>
       <p>Comprehensive geometric morphometrics software</p>
-      <p class="description-ko">포괄적인 기하학적 형태 측정학 소프트웨어</p>
       <div class="button-container">
         <a href="https://github.com/jikhanjung/Modan2" class="btn btn-github" target="_blank">GitHub</a>
-        <a href="https://jikhanjung.github.io/Modan2/" class="btn btn-docs" target="_blank">문서</a>
+        <a href="https://jikhanjung.github.io/Modan2/" class="btn btn-docs" target="_blank">Documents</a>
       </div>
     </div>
 
     <div class="software-card">
       <h3>PhyloForester</h3>
-      <p>Interactive phylogenetic tree visualization and analysis tool</p>
-      <p class="description-ko">대화형 계통수 시각화 및 분석 도구</p>
+      <p>GUI shell for running phylogenetic analysis using TNT/IQTree/MrBayes.</p>
       <div class="button-container">
         <a href="https://github.com/jikhanjung/PhyloForester" class="btn btn-github" target="_blank">GitHub</a>
-        <a href="https://jikhanjung.github.io/PhyloForester/" class="btn btn-docs" target="_blank">문서</a>
+        <a href="https://jikhanjung.github.io/PhyloForester/" class="btn btn-docs" target="_blank">Documents</a>
       </div>
     </div>
 
     <div class="software-card">
       <h3>CTHarvester</h3>
       <p>CT image stack preprocessing software</p>
-      <p class="description-ko">CT 이미지 스택 전처리 소프트웨어</p>
       <div class="button-container">
         <a href="https://github.com/jikhanjung/CTHarvester" class="btn btn-github" target="_blank">GitHub</a>
-        <a href="https://jikhanjung.github.io/CTHarvester/" class="btn btn-docs" target="_blank">문서</a>
+        <a href="https://jikhanjung.github.io/CTHarvester/" class="btn btn-docs" target="_blank">Documents</a>
       </div>
     </div>
   </div>
@@ -141,5 +142,5 @@ lang: ko
 ---
 
 <p style="text-align: center; margin-top: 3em; color: #666;">
-  &copy; 2025 Paleontology Software | <a href="https://github.com/jikhanjung" target="_blank">GitHub</a>
+  &copy; 2025 Jikhan Jung| <a href="https://github.com/jikhanjung" target="_blank">GitHub</a>
 </p>
