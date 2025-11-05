@@ -1,6 +1,212 @@
-<html>
-<head><title>Index</title></head>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>고생물학 소프트웨어</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        main {
+            padding: 40px;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 50px;
+            color: #555;
+        }
+
+        .intro h2 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        .software-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .software-card {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 30px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 2px solid #e9ecef;
+        }
+
+        .software-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            border-color: #667eea;
+        }
+
+        .software-card h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        .software-card p {
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .software-card a {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+            flex: 1;
+            text-align: center;
+            min-width: 100px;
+        }
+
+        .software-card a:hover {
+            background: #5568d3;
+        }
+
+        .software-card a.github-link {
+            background: #2c3e50;
+        }
+
+        .software-card a.github-link:hover {
+            background: #34495e;
+        }
+
+        footer {
+            background: #f8f9fa;
+            text-align: center;
+            padding: 30px;
+            color: #666;
+            border-top: 1px solid #e9ecef;
+        }
+
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            .software-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
 <body>
-<h3>Hello, world</h3>
-<p>this is github.io page</p>
-</body></html>
+    <div class="container">
+        <header>
+            <h1>🦴 고생물학 소프트웨어</h1>
+            <p>Paleontology Software Tools</p>
+        </header>
+
+        <main>
+            <section class="intro">
+                <h2>About</h2>
+                <p>고생물학 연구자이자 소프트웨어 개발자입니다. 형태학적 데이터 분석과 계통수 시각화를 위한 도구들을 개발하고 있습니다.</p>
+                <p>Paleontologist and software developer creating tools for morphological data analysis and phylogenetic visualization.</p>
+            </section>
+
+            <section class="intro" style="margin-top: 40px;">
+                <h2>Projects</h2>
+                <p>고생물학 연구를 지원하기 위해 개발된 소프트웨어 도구들입니다.</p>
+            </section>
+
+            <div class="software-grid">
+                <div class="software-card">
+                    <h3>Modan2</h3>
+                    <p>Comprehensive geometric morphometrics software</p>
+                    <p style="font-size: 0.9em; color: #888;">포괄적인 기하학적 형태 측정학 소프트웨어</p>
+                    <div class="button-container">
+                        <a href="https://github.com/jikhanjung/Modan2" class="github-link" target="_blank">GitHub</a>
+                        <a href="https://jikhanjung.github.io/Modan2/" target="_blank">문서</a>
+                    </div>
+                </div>
+
+                <div class="software-card">
+                    <h3>PhyloForester</h3>
+                    <p>Interactive phylogenetic tree visualization and analysis tool</p>
+                    <p style="font-size: 0.9em; color: #888;">대화형 계통수 시각화 및 분석 도구</p>
+                    <div class="button-container">
+                        <a href="https://github.com/jikhanjung/PhyloForester" class="github-link" target="_blank">GitHub</a>
+                        <a href="https://jikhanjung.github.io/PhyloForester/" target="_blank">문서</a>
+                    </div>
+                </div>
+
+                <div class="software-card">
+                    <h3>CTHarvester</h3>
+                    <p>CT image stack preprocessing software</p>
+                    <p style="font-size: 0.9em; color: #888;">CT 이미지 스택 전처리 소프트웨어</p>
+                    <div class="button-container">
+                        <a href="https://github.com/jikhanjung/CTHarvester" class="github-link" target="_blank">GitHub</a>
+                        <a href="https://jikhanjung.github.io/CTHarvester/" target="_blank">문서</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Paleontology Software | <a href="https://github.com/jikhanjung" target="_blank">GitHub</a></p>
+        </footer>
+    </div>
+</body>
+</html>
