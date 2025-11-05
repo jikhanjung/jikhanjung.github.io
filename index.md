@@ -107,7 +107,7 @@ lang: ko
 </div>
 
 <div class="projects-section">
-  <h2 style="text-align: center; color: #2c3e50; margin-bottom: 1em;">Projects</h2>
+  <h2 style="text-align: center; color: #00ff00; margin-bottom: 1em;">Projects</h2>
 
   <div class="software-grid">
     <div class="software-card">
@@ -142,5 +142,5 @@ lang: ko
 ---
 
 <p style="text-align: center; margin-top: 3em; color: #666;">
-  &copy; 2025 Jikhan Jung| <a href="https://github.com/jikhanjung" target="_blank">GitHub</a>
+  &copy; 2025 Jikhan Jung | <a href="https://github.com/jikhanjung" target="_blank">GitHub</a>
 </p>
